@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #eee;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  margin: 10px;
+  height: 1000px;
+  border: 2px solid #ddd; /* Добавим немного стиля границам изображений */
+  border-radius: 30px; /* Закруглим углы границ */
+  transition: transform 0.3s ease-in-out; /* Плавное изменение размера при наведении */
+}
+
+img:hover {
+  transform: scale(1.3); /* Немного увеличим размер при наведении */
+}
+
+p {
+  text-align: center;
+}
+
+.descriptionmain {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.desc {
+  width: 70%;
+}
+
+.descsmall {
+  align-self: center;
+}
+
+#ball,
+#books,
+#necklace,
+#wands,
+#poison {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#photographers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
+}
